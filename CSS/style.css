@@ -23,7 +23,6 @@
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
     --clr-dark-purple: #32012F;
-    --clr-dark-green: #32012F;
 
     /* font-size */
     --fs-h1: 3rem;
@@ -52,7 +51,7 @@
 
 body {
     background: var(--clr-light);
-    color: var(--clr-dark-green);
+    color: var(--clr-dark-purple);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
