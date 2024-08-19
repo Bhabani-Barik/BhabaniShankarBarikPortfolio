@@ -196,6 +196,10 @@ nav {display: none;}
     margin: 0 auto;
 }
 
+.service p {
+    text-align: justify;
+}
+
 @media (min-width: 800px){
     .services {
         display: flex;
@@ -214,6 +218,11 @@ nav {display: none;}
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.about-me__body p {
+    text-align: justify;
+}
+
 .about-me__img {
     box-shadow: var(--bs);
 }
