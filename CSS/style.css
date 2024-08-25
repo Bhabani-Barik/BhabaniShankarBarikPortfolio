@@ -156,6 +156,10 @@ header {
     color: var(--clr-dark-purple);
 }
 
+.nav-name a:hover {
+    opacity: .7;
+}
+
 .nav {
     position: fixed;
     background: var(--clr-dark);
