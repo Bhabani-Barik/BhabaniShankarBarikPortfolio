@@ -49,6 +49,10 @@
 
 /* General Styles */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--clr-light);
     color: var(--clr-dark-purple);
@@ -66,7 +70,7 @@ img {
     display: block;
     max-width: 100%;
     position: relative;
-    border-radius: 20%;
+    border-radius: 10%;
     z-index: 2;
 }
 
@@ -242,25 +246,6 @@ header {
 
 .hamburger::before{top: 6px;}
 .hamburger::after{bottom: 6px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Setting up the intro Section*/
 .intro {
